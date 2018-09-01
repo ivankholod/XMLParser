@@ -14,6 +14,7 @@
 		379F20E1213AC49800B50170 /* XMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F20E0213AC49800B50170 /* XMLParser.swift */; };
 		379F20E3213ACD0100B50170 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F20E2213ACD0100B50170 /* TableViewController.swift */; };
 		379F20E5213ACD6A00B50170 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F20E4213ACD6A00B50170 /* TableViewCell.swift */; };
+		379F20E7213AE5A300B50170 /* FullNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379F20E6213AE5A300B50170 /* FullNewsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		379F20E0213AC49800B50170 /* XMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMLParser.swift; sourceTree = "<group>"; };
 		379F20E2213ACD0100B50170 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		379F20E4213ACD6A00B50170 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		379F20E6213AE5A300B50170 /* FullNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullNewsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				379F20E0213AC49800B50170 /* XMLParser.swift */,
 				379F20E2213ACD0100B50170 /* TableViewController.swift */,
 				379F20E4213ACD6A00B50170 /* TableViewCell.swift */,
+				379F20E6213AE5A300B50170 /* FullNewsViewController.swift */,
 				379F20D2213AC47F00B50170 /* Main.storyboard */,
 				379F20D5213AC48000B50170 /* Assets.xcassets */,
 				379F20D7213AC48000B50170 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				379F20CF213AC47F00B50170 /* AppDelegate.swift in Sources */,
+				379F20E7213AE5A300B50170 /* FullNewsViewController.swift in Sources */,
 				379F20E5213ACD6A00B50170 /* TableViewCell.swift in Sources */,
 				379F20E3213ACD0100B50170 /* TableViewController.swift in Sources */,
 				379F20E1213AC49800B50170 /* XMLParser.swift in Sources */,

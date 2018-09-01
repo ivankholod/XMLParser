@@ -15,7 +15,6 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.tableView.estimatedRowHeight = 150
         self.tableView.rowHeight = UITableViewAutomaticDimension
 
@@ -59,6 +58,15 @@ class TableViewController: UITableViewController {
     }
  
     override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+        print("didDeselectRowAt")
+        guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "FullNewsViewController") as? FullNewsViewController else {return}
+    
+        guard let cell = tableView.cellForRow(at: indexPath) as? TableViewCell else {return}
+        
+        vc.titleForLabel = cell.titleLabel.text ?? "Sorry :("
+        vc.descriptionForLabel = cell.descriptionLabel.text ?? "No info"
+        vc.pubDateForLabel = cell.pubDateLabel.text ?? "No info"
+        
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
