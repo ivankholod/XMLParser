@@ -1,5 +1,4 @@
-<a href="https://ibb.co/b9oPLK"><img src="https://preview.ibb.co/bGWN7z/back.png" alt="back" border="0"></a>
-
+<div style="text-align:center"><img src ="https://ibb.co/b9oPLK"><img src="https://preview.ibb.co/bGWN7z/back.png" /></div>
 - Used native XMLParser
 
 Screens:
