@@ -20,10 +20,10 @@ class FullNewsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        createNews()
+        updateInfo()
     }
 
-    func createNews() {
+    func updateInfo() {
         self.titleLabel.text = titleForLabel
         self.descriptionLabel.text = descriptionForLabel
         self.dateLabel.text = pubDateForLabel

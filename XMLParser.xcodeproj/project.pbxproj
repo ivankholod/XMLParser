@@ -63,7 +63,7 @@
 				379F20E8213AEFE000B50170 /* System */,
 				379F20E9213AEFEB00B50170 /* Controllers */,
 				379F20EA213AF00500B50170 /* Cells */,
-				379F20E4213ACD6A00B50170 /* TableViewCell.swift */,
+				379F20E0213AC49800B50170 /* XMLParser.swift */,
 				379F20D2213AC47F00B50170 /* Main.storyboard */,
 				379F20D5213AC48000B50170 /* Assets.xcassets */,
 				379F20D7213AC48000B50170 /* LaunchScreen.storyboard */,
@@ -92,7 +92,7 @@
 		379F20EA213AF00500B50170 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				379F20E0213AC49800B50170 /* XMLParser.swift */,
+				379F20E4213ACD6A00B50170 /* TableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
