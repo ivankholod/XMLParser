@@ -1,4 +1,5 @@
-<div style="text-align:center"><img src ="https://ibb.co/b9oPLK"><img src="https://preview.ibb.co/bGWN7z/back.png" /></div>
+
+<img align="center" src="https://preview.ibb.co/bGWN7z/back.png" alt="...">
 - Used native XMLParser
 
 Screens:
