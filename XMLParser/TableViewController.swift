@@ -11,21 +11,21 @@ import UIKit
 class TableViewController: UITableViewController {
     
    var rssItems: [RSSItem]?
+   var rssURL = "https://developers.apple.com/news/rss/news.rss"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.tableView.estimatedRowHeight = 150
         self.tableView.rowHeight = UITableViewAutomaticDimension
-        
+
         fetchData()
     }
     
     private func fetchData() {
         let feedParser = FeedParser()
-        feedParser.parseFeed(url: "https://developers.apple.com/news/rss/news.rss") { (rssItem) in
+        feedParser.parseFeed(url:rssURL) { (rssItem) in
             self.rssItems = rssItem
-            
             OperationQueue.main.addOperation {
                  self.tableView.reloadSections(IndexSet(integer: 0), with: .left)
             }
@@ -55,7 +55,6 @@ class TableViewController: UITableViewController {
         if let item = rssItems?[indexPath.item] {
             cell.item = item
         }
-        
             return cell
     }
  
