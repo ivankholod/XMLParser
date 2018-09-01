@@ -57,10 +57,10 @@ class TableViewController: UITableViewController {
             return cell
     }
  
-    override func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-        print("didDeselectRowAt")
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("didSelectRowAt")
         guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "FullNewsViewController") as? FullNewsViewController else {return}
-    
+        
         guard let cell = tableView.cellForRow(at: indexPath) as? TableViewCell else {return}
         
         vc.titleForLabel = cell.titleLabel.text ?? "Sorry :("
